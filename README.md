@@ -1,5 +1,5 @@
 # CTFTime Discord Bot using GitHub Actions
-This is a GitHub action that periodically notifies the Discord channel of the most recent CTFs listed in [CTFTime](https://ctftime.org/). By default, it fetches data once a day and notifies the channel **if there are any differences from the last notification**. If you want to change the settings such as the interval to retrieve data, please edit [the workflow file](.github/workflows/ctftime.yml).
+This is a GitHub action that periodically notifies the Discord channel of the most recent CTFs listed in [CTFTime](https://ctftime.org/). **By default, it fetches data once a day and notifies the channel if there are any differences from the last notification**. If you want to change the settings such as the interval to retrieve data, please edit [the workflow file](.github/workflows/ctftime.yml).
 
 ## Setup
 1. Fork this repo.
