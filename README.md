@@ -7,6 +7,7 @@ This is a GitHub action that periodically notifies the Discord channel of the mo
 3. Add new repository secret.
    - Name: `DISCORDWEBHOOKURL`
    - Value: `(Your Discord Webhook URL)`
+4. Go to **Actions** and turn on workflows.
 
 ## Appendix: How to get a Discord webhook URL
 1. Go to the channel setting **Integrations**.
