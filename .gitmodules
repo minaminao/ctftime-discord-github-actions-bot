@@ -1,0 +1,3 @@
+[submodule "CTFtime-Discord-hooks"]
+	path = CTFtime-Discord-hooks
+	url = https://github.com/MeitarR/CTFtime-Discord-hooks
