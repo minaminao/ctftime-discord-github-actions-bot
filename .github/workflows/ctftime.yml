@@ -15,4 +15,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run a one-line script
-        run: echo Hello, world!
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DiscordWebhookUrl }}
+        run: |
+          python CTFtime-Discord-hooks/CTFtimeDiscordHooks.py -w "$DISCORD_WEBHOOK_URL" -d 10
