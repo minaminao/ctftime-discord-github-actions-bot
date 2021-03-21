@@ -12,3 +12,7 @@ This is a GitHub action that periodically notifies the Discord channel of the mo
 1. Go to the channel setting **Integrations**.
 2. Click **Webhooks > Create Webhook**.
 3. Click **Copy Webhook URL**.
+
+## Appendix: Run manually
+1. Go to **Actions > CTFTime**.
+2. Click **Run workflow**.
